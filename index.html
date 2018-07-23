@@ -5,14 +5,14 @@
     <meta charset="utf-8" />
     <link
         rel="stylesheet"
-        href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css"
+        href="//cdn.leafletjs.com/leaflet-0.7/leaflet.css"
     />
 </head>
 <body>
     <div id="map" style="width: 2000px; height: 2000px"></div>
 
     <script
-        src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js">
+        src="//cdn.leafletjs.com/leaflet-0.7/leaflet.js">
     </script>
 
     <script>
@@ -20,7 +20,7 @@
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
         L.tileLayer(
-            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; ' + mapLink + ' Contributors',
             maxZoom: 18,
             }).addTo(map);
